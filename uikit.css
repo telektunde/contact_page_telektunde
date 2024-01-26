@@ -1,0 +1,79 @@
+/* General properties */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  background: #6200EA 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+body {
+  background-color: #f4f3f5;
+}
+
+.footer {
+  background: #211138 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+h1 {
+  font-size: 3.125rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.875rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h6, a {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+p {
+  font-size: 0.875rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  width: 
+}
+.button_50 {
+  height: 5.56vh;
+}
+
+.button_40 {
+  height: 4.44vh;
+}
+
+.button_outline {
+  text-align: center;
+  font: normal normal bold 0.75rem/0.9375rem Montserrat;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.button_white {
+  border: 0.125rem solid #FFFFFF;
+  color: #FFFFFF;
+}
+.button_purple {
+  border: 0.125rem solid #6200EA;
+  color: #6200EA;
+}
