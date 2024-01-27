@@ -30,8 +30,8 @@
 
 a {
   text-align: left;
-  font: normal normal bold 0.75rem/0.9375rem Montserrat;
-  letter-spacing: 0.15rem;
+  font: normal normal bold 0.75vw/0.9375vw Montserrat;
+  letter-spacing: 0.15vw;
   color: #F4F3F5;
   text-transform: uppercase;
   opacity: 0.65;
@@ -49,15 +49,26 @@ a:active {
 .main {
   display: flex;
   width: 100%;
-  height: 81.11vh;
 }
 
 .left {
   background: #FFFFFF 0% 0% no-repeat padding-box;
-  border-radius: 0.9375rem;
+  border-radius: 0.9375vw;
   opacity: 1;
   width: 50%;
   margin: 4.44vh 0.9375vw 4.44vh 15.3125vw;
+  height: 71.11vh;
+}
+
+iframe {
+  width: 26.25vw;
+  height: 31.11vh;
+  opacity: 1;
+  margin: 3.75vw;
+  margin-bottom: 0;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0;
+  border-radius: 0.9375vw;
 }
 
 h5 {
@@ -67,7 +78,7 @@ h5 {
   color: #6200EA;
   text-transform: uppercase;
   opacity: 1;
-  margin: 1.875rem 3.75rem 0.625rem 3.75rem;
+  margin: 3.33vh 3.75vw 1.11vh 3.75vw;
 }
 h5.email {
   margin-top: 0px;
@@ -75,18 +86,18 @@ h5.email {
 
 p.address {
   text-align: left;
-  font: normal normal normal 0.875rem/1.25rem Montserrat;
+  font: normal normal normal 0.875vw/1.25vw Montserrat;
   letter-spacing: 0px;
   color: #211138;
   opacity: 1;
-  margin: 0 3.75rem;
+  margin: 0 3.75vw;
 }
 
 .social_icons {
-  margin-top: 1.875rem;
-  margin-left: 3.125rem;
+  margin-top: 3.33vh;
+  margin-left: 3.125vw;
   display: table;
-  border-spacing: 0.625rem;
+  border-spacing: 0.625vw;
 }
 
 li.fa-brands {
@@ -96,28 +107,17 @@ li.fa-brands {
   width: 2.5vw;
   height: 4.44vh;
   text-align: center;
-  font: normal normal normal 1.25rem/1.25rem Font Awesome 6 Brands;
   letter-spacing: 0px;
   color: #FFFFFF;
   display: table-cell;
   vertical-align: middle;
 }
 
-iframe {
-  width: 26.25vw;
-  height: 31.11vh;
-  opacity: 1;
-  margin: 3.75rem;
-  margin-bottom: 0;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  border-radius: 0.9375rem;
-}
-
 /* Main - right part */
 
 .right {
   background: #FFFFFF 0% 0% no-repeat padding-box;
-  border-radius: 0.9375rem;
+  border-radius: 0.9375vw;
   opacity: 1;
   width: 50%;
   margin: 4.44vh 15.3125vw 4.44vh 0.9375vw;
@@ -125,68 +125,68 @@ iframe {
 
 h2 {
   text-align: left;
-  font: normal normal bold 2.5rem/3.125rem Montserrat;
+  font: normal normal bold 2.5vw/3.125vw Montserrat;
   letter-spacing: 0px;
   color: #211138;
   opacity: 1;
-  margin: 3.75rem;
-  margin-bottom: 0.625rem;
+  margin: 3.75vw;
+  margin-bottom: 0.625vw;
 }
 
 h4 {
   text-align: left;
-  font: normal normal normal 1.25rem/1.875rem Montserrat;
+  font: normal normal normal 1.25vw/1.875vw Montserrat;
   letter-spacing: 0px;
   color: #211138;
   opacity: 1;
-  margin: 0 3.75rem;
+  margin: 0 3.75vw;
 }
 
 form {
   opacity: 1;
-  margin: 1.25rem 3.75rem;
+  margin: 1.25vw 3.75vw;
 }
 
 input, textarea, button {
   text-align: left;
-  font: normal normal bold 0.875rem/1.125rem Montserrat;
+  font: normal normal bold 0.875vw/1.125vw Montserrat;
   letter-spacing: 0px;
   width: 100%;
   border: none;
-  padding-left: 1.5rem;
+  padding-left: 1.5vw;
   background: #F4F3F5 0% 0% no-repeat padding-box;
   color: #21113825;
 
 }
 
 #name, #email {
-  height: 3.125rem;
-  margin-bottom: 0.9375rem;
+  height: 5.55vh;
+  margin-bottom: 1.66vh;
 }
 
 #name {
-  border-bottom: 0.125rem solid #6200EA;
+  border-bottom: 0.222vh solid #6200EA;
 }
 
 #message {
   height: 16.66vh;
   width: 100%;
   border: none;
-  margin-bottom: 1.25rem;
+  margin-bottom: 2.22vh;
   padding-top: 1rem;
 }
 
 #submit {
   background: #6200EA 0% 0% no-repeat padding-box;
-  border: 0.125rem solid #6200EA;
-  border-radius: 1.5rem;
+  border: 0.125vw solid #6200EA;
+  border-radius: 1.5vw;
   text-align: center;
-  font: normal normal bold 0.75rem/0.9375rem Montserrat;
-  letter-spacing: 0.15rem;
+  font: normal normal bold 0.75vw/0.9375vw Montserrat;
+  letter-spacing: 0.15vw;
   color: #FFFFFF;
   text-transform: uppercase;
   opacity: 1;
-  height: 3.125rem;
+  height: 5.55vh;
 }
 
 /* Footer */

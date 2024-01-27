@@ -20,30 +20,30 @@ body {
 }
 
 h1 {
-  font-size: 3.125rem;
+  font-size: 3.125vw;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.5vw;
 }
 
 h3 {
-  font-size: 1.875rem;
+  font-size: 1.875vw;
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.25vw;
 }
 
 h6, a {
-  font-size: 0.75rem;
+  font-size: 0.75vw;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.15vw;
 }
 
 p {
-  font-size: 0.875rem;
+  font-size: 0.875vw;
 }
 
 a {
@@ -64,16 +64,16 @@ a {
 
 .button_outline {
   text-align: center;
-  font: normal normal bold 0.75rem/0.9375rem Montserrat;
-  letter-spacing: 0.15rem;
+  font: normal normal bold 0.75vw/0.9375vw Montserrat;
+  letter-spacing: 0.15vw;
   text-transform: uppercase;
   background-color: transparent;
 }
 .button_white {
-  border: 0.125rem solid #FFFFFF;
+  border: 0.125vw solid #FFFFFF;
   color: #FFFFFF;
 }
 .button_purple {
-  border: 0.125rem solid #6200EA;
+  border: 0.125vw solid #6200EA;
   color: #6200EA;
 }
